@@ -17,6 +17,7 @@ import geekyants from "../Image/geekyants.png"
 import soprabankingsoftware from "../Image/sopra-banking-software.png"
 
 
+
 function Header() {
     return (
         <>
@@ -48,6 +49,7 @@ function Header() {
             <div className="Header_Bottom">
                 <div className="headeer">
                     <h1>Our Achiever’s Work with</h1>
+
                     <div className="scroll">
                         <img src={amazon} alt="..." style={{ width: '100px' }} />
                         <img src={bluebrain} alt="..." style={{ width: '100px' }} />
@@ -62,6 +64,7 @@ function Header() {
                         <img src={soprabankingsoftware} alt="..." style={{ width: '100px' }} />
                         <img src={super6} alt="..." style={{ width: '100px' }} />
                     </div>
+
                 </div>
             </div>
         </>
