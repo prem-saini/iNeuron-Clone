@@ -6,7 +6,7 @@ function LiveProgram() {
         <>
             <div className="Live">
                 <h1>Live Program</h1>
-                <p>Get your program with live "instructor led" learning.</p>
+                <p style={{ color: 'black', fontWeight: '700' }}>Get your program with live "instructor led" learning.</p>
             </div>
 
             <div className="live">

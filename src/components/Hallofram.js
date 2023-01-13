@@ -1,16 +1,14 @@
 import React from "react"
 import "./Hallofram.css"
-// import { Carousel } from "react-responsive-carousel"
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Data from "../Data"
-// import anil from "../Image/anil.jpeg"
+
 
 function Hallofram() {
     return (
         <>
-            {/* <Carousel> */}
+
             <div className="hall">
-                <h1>Hall Of Fram</h1>
+                <h1 style={{ color: 'blue', padding: '40px' }}>Hall Of Fame</h1>
             </div>
 
             <div className="cardd">
@@ -37,10 +35,6 @@ function Hallofram() {
                     })
                 }
             </div>
-
-
-            {/* </Carousel> */}
-
         </>
     )
 }
