@@ -31,3 +31,42 @@
 .map_text {
     font-size: 12px;
 }
+
+@media screen and (max-width:766px) {
+    .Neureo {
+        color: blue;
+        padding: 30px;
+    }
+
+    .neureo {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .Neureo_Card {
+        width: 260px;
+        height: 400px;
+        background-color: white;
+        border-radius: 2px;
+        box-shadow: 0px 0px 2px 2px;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .neureo_card {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .Neureo_img {
+        width: 260px;
+        height: 200px;
+    }
+
+    .map_text {
+        font-size: 12px;
+    }
+}

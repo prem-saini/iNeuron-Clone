@@ -29,3 +29,42 @@
      width: 260px;
      height: 200px;
  }
+
+ @media screen and (max-width:766px) {
+
+     .Live {
+         color: blue;
+         padding: 30px;
+     }
+
+
+     .live {
+         display: flex;
+         justify-content: space-between;
+         flex-direction: column;
+         margin: 10px;
+
+     }
+
+     .Live_Card {
+         width: 260px;
+         height: 270px;
+         background-color: white;
+         border-radius: 2px;
+         box-shadow: 0px 0px 2px 2px;
+         padding: 15px;
+         margin: 10px;
+     }
+
+     .Live_card {
+         display: flex;
+         justify-content: space-evenly;
+         flex-direction: column;
+     }
+
+     .Live_img {
+         width: 260px;
+         height: 200px;
+     }
+
+ }

@@ -35,3 +35,45 @@ li {
     color: blue;
     font-weight: 500;
 }
+
+@media screen and (max-width:766px) {
+    .Navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: beige;
+        flex-direction: column;
+
+    }
+
+    .search_input {
+        width: 150px;
+        height: 30px;
+        border: transparent;
+    }
+
+    .navbar_btn {
+        width: 100px;
+        height: 30px;
+        margin: 5px;
+        background-color: blue;
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        border: transparent;
+    }
+
+
+    .navbar_ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+        color: blue;
+        font-weight: 400;
+        font-size: 10px;
+    }
+}

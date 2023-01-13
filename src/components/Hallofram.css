@@ -38,3 +38,52 @@
     font-weight: 600;
     color: black;
 }
+
+@media screen and (max-width:766px) {
+
+    .card {
+        width: 260px;
+        height: 430px;
+        background-color: white;
+        border-radius: 2px;
+        box-shadow: 0px 0px 2px 2px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .cardd {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+    }
+
+
+    .cart {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 10px;
+
+
+    }
+
+    .map_text {
+        font-size: 20px;
+        font-weight: 700;
+        color: teal;
+    }
+
+    .map_role {
+        font-size: 12px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .map_des {
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+    }
+}

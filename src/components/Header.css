@@ -66,3 +66,78 @@
     align-items: center;
 
 }
+
+
+@media screen and (max-width: 766px) {
+    .header_heading {
+        padding: 40px;
+        color: blue;
+    }
+
+    .line {
+        width: 10%;
+        height: 3px;
+        background-color: rgb(245, 128, 12);
+        padding: 0px 0px 5px 0px;
+        margin-top: -30px;
+
+
+    }
+
+    .header_mid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+    }
+
+    .header_top {
+        padding: 10px;
+
+    }
+
+
+    .book_img {
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .book_price {
+        font-size: 28px;
+        color: rgb(80, 80, 194);
+        font-weight: 700;
+
+
+    }
+
+    .book_text {
+        font-size: 28px;
+        color: gray;
+        font-weight: 600;
+
+
+    }
+
+    .Header_Bottom {
+        background-color: #e2e2e2;
+        height: 200px;
+    }
+
+    .headeer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        color: rgb(80, 80, 194);
+    }
+
+    .scroll {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+}
