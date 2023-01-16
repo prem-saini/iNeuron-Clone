@@ -8,6 +8,8 @@ import Hackthon from "./components/Hackthon";
 import TestSeries from './components/TestSeries';
 import Affortable from './components/Affortable';
 import Neureo from './components/Neureo';
+import HackthoneCompany from './components/HackthoneCompany';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,8 @@ function App() {
       <Affortable />
       <Neureo />
       <Hackthon />
+      <HackthoneCompany />
+      <Footer />
     </div>
   );
 }

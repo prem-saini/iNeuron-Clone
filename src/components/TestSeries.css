@@ -37,6 +37,7 @@
     .test {
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
     }
 
     .Test_Card {
